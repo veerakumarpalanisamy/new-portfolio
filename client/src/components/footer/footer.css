@@ -1,0 +1,324 @@
+.contact {
+    padding: 0 300px;
+  }
+  .contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  
+  .contact__section_left {
+    margin-right: 20px;
+  }
+  .contact__section_left h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+  }
+  
+  .contact__section_left img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .contact__container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .contact__section2__left {
+    margin-right: 30px;
+  }
+  .contact__section2__left h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .contact__section2__left p {
+    color: gray;
+  }
+  .contact__section2__right {
+    color: darkslategrey;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    height: 100%;
+  }
+  
+  form input {
+    border: none;
+    border-bottom: 1px solid #e1e5ee;
+  }
+  
+  form input:hover,
+  form textarea:hover {
+    border-color: lightblue;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: royalblue;
+  }
+  
+  .input_section {
+    margin-bottom: 20px;
+  }
+  
+  .input_section input,
+  .input_section textarea {
+    padding: 20px 50px;
+    margin-top: 10px;
+    /* width: 400px; */
+    border-radius: 0.5rem;
+    font-size: inherit;
+    color: #454545;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .input_section textarea {
+    resize: none;
+    padding: 30px 50px;
+    border: 1px solid #e1e5ee;
+  }
+  
+  .contact__btn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .contact__btn button:hover {
+    color: royalblue;
+  }
+  
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px;
+    background-color: white;
+  }
+  
+  .footer__left h1 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline 2px solid black;
+  }
+  
+  .footer__left h1:hover {
+    color: royalblue;
+    cursor: pointer;
+  }
+  
+  .footer__social h3 {
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footer__social p {
+    color: gray;
+  }
+  
+  .footer__social p:hover {
+    color: royalblue;
+    cursor: pointer;
+  }
+  .footer__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__services {
+    margin: 0 0 0 20px;
+  }
+  .footer__services h3 {
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footer__services p {
+    color: gray;
+  }
+  
+  .footer__services p:hover {
+    color: royalblue;
+    cursor: pointer;
+  }
+  
+  .footer__end {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    color: gray;
+  }
+  
+  @media screen and (max-width: 1800px) {
+    .contact__section2__left h1 {
+      font-size: 30px;
+    }
+  
+    .contact__section2__left p {
+      font-size: 15px;
+    }
+    .contact__name_input {
+      display: flex;
+    }
+  
+    .lastname {
+      margin-left: 20px;
+    }
+    .input_section input,
+    .input_section textarea {
+      padding: 20px 30px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contact__section_left h1 {
+      font-size: 50px;
+    }
+    .contact__section_left img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .input_section input,
+    .input_section textarea {
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+  
+    .contact__container2 {
+      flex-direction: column;
+    }
+  
+    .contact__section2__right {
+      margin-top: 20px;
+    }
+  
+    .contact__section2__right button {
+      font-size: 17px;
+    }
+  
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .footer__container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .footer__left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .footer__right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .footer__social h3 {
+      margin: 0;
+    }
+    .footer__left h1 {
+      font-size: 25px;
+    }
+  
+    .footer__services {
+      margin: 20px 0;
+    }
+    .footer__services h3 {
+      margin: 0;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .footer__left h1 {
+      font-size: 20px;
+    }
+  
+    .footer__social h3,
+    .footer__services h3 {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer__left h1 {
+      font-size: 15px;
+    }
+  
+    .footer__social h3,
+    .footer__services h3 {
+      font-size: 12px;
+    }
+    .footer__social p,
+    .footer__services p {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .contact {
+      margin: 0;
+      padding: 20px;
+    }
+  
+    .contact__container {
+      flex-direction: column;
+    }
+  
+    .contact__section_left h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .contact__section2__left h1 {
+      font-size: 15px;
+    }
+  
+    .contact__section2__left p {
+      font-size: 12px;
+    }
+    .contact__name_input {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .lastname {
+      margin-left: 0px;
+    }
+  }
+  
